@@ -23,6 +23,7 @@ public class BorrowServiceTest {
 
     @Autowired
     private BorrowService borrowService;
+
     @MockBean
     private ItemAvailabilityRepository itemAvailabilityRepository;
     private boolean firstItemAvailability = true;
